@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="calculadora.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <div id="calculadora">
+        <h1>Calculadora</h1>
+        <p id="resultado"></p>
+        <table>
+            <tr>
+                <td><button onclick="clean">c</button></td>
+                <td><button onclick="back"><=</button></td>
+                <td><button onclick="insert">%</button></td>
+                <td><button onclick="insert">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert">7</button></td>
+                <td><button onclick="insert">8</button></td>
+                <td><button onclick="insert">9</button></td>
+                <td><button onclick="insert">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert">4</button></td>
+                <td><button onclick="insert">5</button></td>
+                <td><button onclick="insert">6</button></td>
+                <td><button onclick="insert">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert">1</button></td>
+                <td><button onclick="insert">2</button></td>
+                <td><button onclick="insert">3</button></td>
+                <td><button onclick="insert">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert">0</button></td>
+                <td><button onclick="insert">,</button></td>
+                <td colspan="2"><button onclick="calcular" style="width: 106px"> =</button></td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+<script src="calculadora.js"></script>
+</html>

@@ -1,0 +1,37 @@
+* {
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+tr {
+    background-color: black;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: beige;
+    color: black;
+}
+
+body {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+
+
+#resultado {
+    background-color: white;
+    width: 230px;
+    height: 30px;
+    text-align: right;
+    padding: 5px;
+}
